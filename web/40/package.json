@@ -1,0 +1,1 @@
+{"name":"swf-40-html5","private":true,"type":"module","scripts":{"build":"tsc -p tsconfig.json"}}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "source": "46.swf",
+  "sourceSha256": "479dcee3c4d8f3d6fb60941843677318459181579bc51c4901dd84e35c75a7bb",
+  "route": "native-canvas-root-raster-sequence",
+  "stage": {
+    "width": 550,
+    "height": 400,
+    "background": "#000000",
+    "rectTwips": {
+      "xMin": 0,
+      "xMax": 11000,
+      "yMin": 0,
+      "yMax": 8000
+    }
+  },
+  "fps": 12,
+  "durationFrames": 581,
+  "visualMode": "clamp",
+  "audio": {
+    "file": "assets/soundtrack.mp3",
+    "mode": "loop"
+  },
+  "actionTagsInspected": 11
+}

@@ -1,0 +1,41 @@
+{
+  "skill_name": "swf-to-html5",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "把 assets/banner.swf 转到 public/banner 下，要求和原 Flash 像素级一致、离线可部署，并在浏览器里验收。",
+      "expected_output": "Inspect nested ActionScript, choose a pinned self-hosted Ruffle compatibility deployment, preserve native stage dimensions, bundle licenses and SWF, and report browser verification without calling it a native source conversion.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "这个 intro.swf 没有交互，我需要彻底去掉 SWF 依赖，转成原生 HTML5 Canvas 动画放进 web/。",
+      "expected_output": "Inspect the SWF and scripts first, use a native Canvas export only if ActionScript is absent or fully mapped, clean generated files, preserve timing and dimensions, and verify multiple frames in a browser.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "把旧的 AS2 互动课件迁移成以后能维护的 TypeScript 项目，二维动画很多，应该用 PixiJS 还是 Three.js？直接开始迁移。",
+      "expected_output": "Choose PixiJS plus a deterministic timeline for 2D content, inventory display objects and all ActionScript behavior, map interaction/state to TypeScript, reserve Three.js for genuine 3D, and verify scenes against reference playback.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "像素级重写这个 SWF，但不准使用 Ruffle、WASM，也不能在产物里保留 SWF。用 Canvas 2D + TypeScript。",
+      "expected_output": "Honor the native-only constraint, first test FFDec vector paths against a trusted renderer, promote inaccurate masks/alpha to renderer-matched PNG sprite frames when needed, build one deterministic TypeScript clock, manually map stopped and nested timelines plus depth-scoped duplicateMovieClip behavior, extract streaming audio, retain exact-frame QA controls, and verify that the output contains no SWF, Ruffle, WASM, or external runtime.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "把一批 12 FPS 的 SWF 转成原生 Canvas，并把时间轴抽成公共 TypeScript 库；有的根时间轴很长，有的根只有一帧但子 Sprite 会一直播放。",
+      "expected_output": "Inspect every movie and its nested scripts, share one deterministic Canvas timeline player, choose root frame sequences for genuine long root timelines and top-level transparent layer manifests for one-frame roots, preserve SVG-derived crop origins and Flash matrices, use selected sublength exports only for independently advancing descendants, map stop actions to clamped playheads, and browser-test exact query frames plus autoplay for every output.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "原生批量转换时 extract-stream-audio 报没有 MP3 stream；SWF 里却有 DefineSound/StartSound。另外检查器说最深子 Sprite 有 975 帧，但控制 Sprite 第 4 帧就 stop 了。继续按像素级要求完成。",
+      "expected_output": "Do not treat either signal mechanically: inspect and export the StartSound-referenced DefineSound assets, preserve trigger frame and loop/stop/no-multiple semantics, derive default playback from decompiled stop/goto behavior rather than the structural 975-frame maximum, avoid exporting unreachable descendants, and validate manifests, asset budgets, exact query frames, autoplay, audio behavior, and native-only output.",
+      "files": []
+    }
+  ]
+}

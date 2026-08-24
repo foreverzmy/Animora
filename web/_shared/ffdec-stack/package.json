@@ -1,0 +1,8 @@
+{
+  "name": "@swf-html5/ffdec-stack",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  }
+}

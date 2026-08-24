@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "source": "10.swf",
+  "sourceSha256": "e229447cbccf6f7a827940c4457848098fa0aae5f7a2ea7daaec62ae97646bfe",
+  "route": "native-canvas-root-raster-sequence",
+  "stage": { "width": 502, "height": 400, "background": "#000000" },
+  "fps": 12,
+  "durationFrames": 116,
+  "visualMode": "loop",
+  "audio": null,
+  "actionTagsInspected": 13
+}

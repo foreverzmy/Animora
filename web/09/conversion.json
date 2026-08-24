@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "source": "9.swf",
+  "sourceSha256": "2f2c4de02082d46b381c13a6517cb19daddbd6df9f76962ae80228d5cef1dce9",
+  "route": "native-canvas-manual-display-list",
+  "stage": { "width": 650, "height": 450, "background": "#000000" },
+  "fps": 12,
+  "durationFrames": 200,
+  "visualMode": "loop",
+  "audio": { "file": "assets/soundtrack.mp3", "mode": "loop" },
+  "actionTagsInspected": 15
+}

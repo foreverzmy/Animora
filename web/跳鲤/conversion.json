@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source": "跳鲤.swf",
+  "sourceSha256": "44352a6895f250c9413549ea36ffb1be678746f22cf602831b124fbc3724f32c",
+  "route": "native-canvas-root-raster-sequence",
+  "stage": {
+    "width": 700,
+    "height": 500,
+    "background": "#000000",
+    "rectTwips": {
+      "xMin": 0,
+      "xMax": 14000,
+      "yMin": 0,
+      "yMax": 10000
+    }
+  },
+  "fps": 12,
+  "durationFrames": 700,
+  "visualMode": "loop",
+  "audio": null,
+  "actionTagsInspected": 13
+}

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source": "蝴蝶气泡.swf",
+  "sourceSha256": "ee4ea288dc12352304ff2d68efa416121a13750fc9137f5a6b5016bce0c40a0a",
+  "route": "native-canvas-root-raster-sequence",
+  "stage": {
+    "width": 700,
+    "height": 500,
+    "background": "#000000",
+    "rectTwips": {
+      "xMin": 0,
+      "xMax": 14000,
+      "yMin": 0,
+      "yMax": 10000
+    }
+  },
+  "fps": 12,
+  "durationFrames": 76,
+  "visualMode": "loop",
+  "audio": null,
+  "actionTagsInspected": 0
+}

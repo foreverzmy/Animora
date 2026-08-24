@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source": "三朵金花.swf",
+  "sourceSha256": "6f398894261f2cc975ca2446f66818cf34c38fb2e6ce2a85a645344dea098213",
+  "route": "native-canvas-root-raster-sequence",
+  "stage": {
+    "width": 750,
+    "height": 600,
+    "background": "#ffffff",
+    "rectTwips": {
+      "xMin": 0,
+      "xMax": 15000,
+      "yMin": 0,
+      "yMax": 12000
+    }
+  },
+  "fps": 12,
+  "durationFrames": 120,
+  "visualMode": "loop",
+  "audio": null,
+  "actionTagsInspected": 0
+}

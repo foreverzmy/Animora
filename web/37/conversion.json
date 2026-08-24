@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "source": "37.swf",
+  "sourceSha256": "517c0609f34310897ba34fb1c25fc936a6df1c4602de4d58ec778ece2c484ab7",
+  "route": "native-canvas-transparent-layer-composition",
+  "stage": { "width": 800, "height": 500, "background": "#666666" },
+  "fps": 12,
+  "durationFrames": 705,
+  "visualMode": "mixed-loop-clamp",
+  "audio": null,
+  "actionTagsInspected": 1
+}

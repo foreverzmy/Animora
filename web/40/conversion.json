@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "source": "40.swf",
+  "sourceSha256": "45911fa32f23c338a3c830706ccf48d7e5e7fac782784aeba1ccf5ad86d8e4d1",
+  "route": "native-canvas-transparent-layer-composition",
+  "stage": { "width": 780, "height": 750, "background": "#cccccc" },
+  "fps": 12,
+  "durationFrames": 975,
+  "visualMode": "mixed-loop-clamp",
+  "audio": { "file": "assets/soundtrack.mp3", "mode": "loop" },
+  "actionTagsInspected": 7
+}

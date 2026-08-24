@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source": "55.swf",
+  "sourceSha256": "cc4b63415ed0e286cdeb1da1e19978e5c79a7b91b58eebc7153b3e610b62c28f",
+  "route": "native-canvas-ffdec-vector-stack",
+  "stage": {
+    "width": 1028,
+    "height": 686,
+    "background": "#000000",
+    "rectTwips": {
+      "xMin": 0,
+      "xMax": 20560,
+      "yMin": 0,
+      "yMax": 13720
+    }
+  },
+  "fps": 12,
+  "durationFrames": 1420,
+  "visualMode": "loop",
+  "audio": null,
+  "actionTagsInspected": 22,
+  "externalLoadsRecovered": [
+    { "level": 1, "name": "scg10", "archiveTimestamp": "20130320224014", "sha256": "3b9ea712aff84a2ea708de8cd22f5d7ee9e3f06a6016bb1aa7462719d8991d63", "periodFrames": 1 },
+    { "level": 2, "name": "scg9", "archiveTimestamp": "20130320224009", "sha256": "23dbbe451559d2bef65220f18640e0e53c0d9f62d6e88df75f17cd0db900dc41", "periodFrames": 50 },
+    { "level": 3, "name": "scg8", "archiveTimestamp": "20130320224037", "sha256": "a7f9f25d22a7f7bd664cf5551142fdf8b6cf1138625632b696888f057e673aee", "periodFrames": 1 },
+    { "level": 4, "name": "scg7", "archiveTimestamp": "20130320224032", "sha256": "d1623f7af8e01719b4e24dcbd83591f62b3813e62c716b076406dfa80a86352b", "periodFrames": 1 },
+    { "level": 5, "name": "scg6", "archiveTimestamp": "20130320222502", "sha256": "5cd13afcef54d9841354b12d62e0472b00e43c651a8f7f85f90c8ac80cecdc39", "periodFrames": 1 },
+    { "level": 6, "name": "scg5", "archiveTimestamp": "20130320224018", "sha256": "6434605d193430d768293453af31b624d7f34329f7f0d6d23c534ccff0b38c94", "periodFrames": 1010 },
+    { "level": 7, "name": "scg4", "archiveTimestamp": "20130320224027", "sha256": "2bd888b0608da9af50f934aa79abecb35fbdc79d5d767668d39b56565a141fd2", "periodFrames": 1420 },
+    { "level": 8, "name": "scg3", "archiveTimestamp": "20130320222453", "sha256": "d7cbaa447fb52fc97b5c72f135a29fb8b06f1e3b2ae19f1b0036c83ffcc83ba5", "periodFrames": 1 },
+    { "level": 9, "name": "scg2", "archiveTimestamp": "20130320222458", "sha256": "6ae13b08d59bbdc8fda9accbeaaf6d0fa01ce47d0652ff7dbfb9f1538e640e05", "periodFrames": 859 },
+    { "level": 10, "name": "scg1", "archiveTimestamp": "20130320224023", "sha256": "d08cc7cc82091334dedb84c061c9ff58abba8b3ce3f9c1701e19442d45d74756", "periodFrames": 50 }
+  ]
+}

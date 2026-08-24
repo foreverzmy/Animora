@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source": "610.swf",
+  "sourceSha256": "2df8ba4aa89a49d5fe9ecaa117205f9a1c93781d48939ee7171b0eaab3be9572",
+  "route": "native-canvas-root-raster-sequence",
+  "stage": {
+    "width": 550,
+    "height": 400,
+    "background": "#000000",
+    "rectTwips": {
+      "xMin": 0,
+      "xMax": 11000,
+      "yMin": 0,
+      "yMax": 8000
+    }
+  },
+  "fps": 12,
+  "durationFrames": 1,
+  "visualMode": "loop",
+  "audio": null,
+  "actionTagsInspected": 22
+}

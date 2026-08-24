@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source": "蜻蜓向日葵.swf",
+  "sourceSha256": "6d6ee736080885cbaa265d274b37db33a8f739a47dd15ddd3dc4b94f01a8c019",
+  "route": "native-canvas-root-raster-sequence",
+  "stage": {
+    "width": 550,
+    "height": 400,
+    "background": "#000000",
+    "rectTwips": {
+      "xMin": 0,
+      "xMax": 11000,
+      "yMin": 0,
+      "yMax": 8000
+    }
+  },
+  "fps": 12,
+  "durationFrames": 236,
+  "visualMode": "loop",
+  "audio": null,
+  "actionTagsInspected": 22
+}

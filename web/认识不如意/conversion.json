@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source": "认识不如意.swf",
+  "sourceSha256": "fe3da61848dcdd88993c4c01d1c422e177c5c87b9e8d3789460322a6dbac4e22",
+  "route": "native-canvas-root-raster-sequence",
+  "stage": {
+    "width": 550,
+    "height": 400,
+    "background": "#000000",
+    "rectTwips": {
+      "xMin": 0,
+      "xMax": 11000,
+      "yMin": 0,
+      "yMax": 8000
+    }
+  },
+  "fps": 12,
+  "durationFrames": 965,
+  "visualMode": "loop",
+  "audio": null,
+  "actionTagsInspected": 0
+}

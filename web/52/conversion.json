@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "source": "52.swf",
+  "sourceSha256": "76eb83593af43a73c120277905a2e1e58e2aeadd76079a192645c27b9b6fb0a9",
+  "route": "native-canvas-ffdec-vector-stack",
+  "stage": {
+    "width": 1028,
+    "height": 686,
+    "background": "#000000",
+    "rectTwips": {
+      "xMin": 0,
+      "xMax": 20560,
+      "yMin": 0,
+      "yMax": 13720
+    }
+  },
+  "fps": 12,
+  "durationFrames": 2000,
+  "visualMode": "loop",
+  "audio": {
+    "file": "assets/sound-51.mp3",
+    "mode": "once",
+    "sourceCharacterId": 51
+  },
+  "actionTagsInspected": 22,
+  "externalLoadsRecovered": [
+    {
+      "level": 1,
+      "name": "yu3",
+      "archiveTimestamp": "20120611073907",
+      "sha256": "82f5f807c8c02d72734f43229ff92f21a46c56ac8d0b7b42a4a9604cfd983962",
+      "periodFrames": 1
+    },
+    {
+      "level": 2,
+      "name": "yu2",
+      "archiveTimestamp": "20120611073926",
+      "sha256": "09f19a0af38fb6a2add8be8531022fba325e8a30d20c9f0e7bf2c35ead8efe5c",
+      "periodFrames": 33
+    },
+    {
+      "level": 3,
+      "name": "yu1",
+      "archiveTimestamp": "20120611073939",
+      "sha256": "e83102ddba9c992612f20a256b2a30c8c70a4332a7cb31cbb7bdad1c9ca8e4ee",
+      "periodFrames": 2000
+    }
+  ]
+}
