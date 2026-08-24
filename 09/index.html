@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>9 · 原生 HTML5 Canvas 动画</title>
+  <style>
+    :root { color-scheme: dark; background: #000; }
+    * { box-sizing: border-box; }
+    html, body { width: 100%; min-height: 100%; margin: 0; background: #000; }
+    #stage { width: 100%; background: #000; }
+    #animation { display: block; width: 100%; height: auto; }
+  </style>
+</head>
+<body>
+  <main id="stage" aria-label="原生重写的 HTML5 动画">
+    <canvas id="animation" width="650" height="450" aria-label="抽象花卉粒子动画"></canvas>
+  </main>
+  <audio id="soundtrack" src="assets/soundtrack.mp3" preload="auto" loop></audio>
+  <script type="module" src="dist/animation.js"></script>
+</body>
+</html>
