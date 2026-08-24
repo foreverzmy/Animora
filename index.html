@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101014">
+  <meta name="description" content="Animora · 原生 HTML5 Canvas 动画档案">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="home.css">
+  <title>Animora · 动画档案</title>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="hero">
+    <nav class="nav" aria-label="主导航">
+      <a class="brand" href="./" aria-label="Animora 首页">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>Animora</span>
+      </a>
+      <a class="github-link" href="https://github.com/foreverzmy/Animora" target="_blank" rel="noreferrer">
+        GitHub <span aria-hidden="true">↗</span>
+      </a>
+    </nav>
+
+    <div class="hero-copy">
+      <p class="eyebrow">HTML5 ANIMATION ARCHIVE</p>
+      <h1>让每一帧，<br><em>重新流动。</em></h1>
+      <p class="lede">38 个经典动画，以原生 Canvas 2D 与 TypeScript 重构。无需插件，打开浏览器即可播放。</p>
+    </div>
+
+    <div class="hero-stats" aria-label="项目数据">
+      <div><strong>38</strong><span>动画作品</span></div>
+      <div><strong>20K</strong><span>重构帧资源</span></div>
+      <div><strong>100%</strong><span>原生 HTML5</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="catalog" aria-labelledby="catalog-title">
+      <div class="catalog-head">
+        <div>
+          <p class="section-index">01 / COLLECTION</p>
+          <h2 id="catalog-title">动画目录</h2>
+        </div>
+        <label class="search">
+          <span class="sr-only">搜索动画</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+          <input id="search" type="search" placeholder="搜索动画名称…" autocomplete="off">
+        </label>
+      </div>
+
+      <p class="result-line"><span id="result-count">38</span> 个动画</p>
+      <div id="animation-grid" class="animation-grid"></div>
+      <p id="empty-state" class="empty-state" hidden>没有找到匹配的动画。</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="./">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Animora</span>
+    </a>
+    <p>Canvas 2D · TypeScript · Native HTML5</p>
+    <p>© 2026 Animora</p>
+  </footer>
+
+  <script type="module" src="home.js"></script>
+</body>
+</html>
