@@ -1,0 +1,1 @@
+{"version":1,"stage":{"width":550,"height":400,"background":"#000000"},"fps":12,"durationFrames":1,"sequences":{"root":{"space":"pixels","frames":[{"src":"root/1.webp","size":[550,400]}]}},"layers":[{"sequence":"root","mode":"loop"}]}
