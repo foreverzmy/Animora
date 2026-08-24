@@ -2,6 +2,8 @@
 
 Animora 是一个原生 HTML5 动画重构项目。它将历史动画资源转换为浏览器可直接运行的 Canvas 2D 动画，不依赖 Flash、Ruffle 或 WASM 运行时。
 
+在线浏览：[https://foreverzmy.github.io/Animora/](https://foreverzmy.github.io/Animora/)
+
 ## 特性
 
 - Canvas 2D + TypeScript
@@ -26,6 +28,16 @@ python3 -m http.server 4175 --bind 127.0.0.1 --directory web
 然后访问 `http://127.0.0.1:4175/<动画目录>/`。
 
 例如：`http://127.0.0.1:4175/09/`。
+
+## GitHub Pages 部署
+
+GitHub Pages 使用独立的 `gh-pages` 分支。部署构建会保留运行时代码和音频，并将 PNG 帧转换为带透明通道的高质量 WebP，以满足 Pages 的站点大小限制；`main` 分支中的无损源资源不会被修改。
+
+```bash
+node scripts/build-gh-pages.mjs /tmp/animora-gh-pages
+```
+
+构建完成后，将 `/tmp/animora-gh-pages` 的内容发布到 `gh-pages` 分支根目录。
 
 ## 大文件
 
